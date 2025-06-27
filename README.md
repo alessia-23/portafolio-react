@@ -1,12 +1,91 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Portafolio Personal - React + Vite
 
-Currently, two official plugins are available:
+Este es un proyecto de portafolio personal desarrollado en React utilizando Vite como entorno de desarrollo. Incluye secciones como Datos Personales, Estudios, Habilidades, Concursos Realizados y más.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- CSS personalizado
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Requisitos previos
+
+Asegúrate de tener instalado en tu computadora:
+
+- [Node.js](https://nodejs.org/) (versión recomendada: 18 o superior)
+- npm (instalado junto con Node.js)
+
+Puedes verificar que están instalados con los siguientes comandos:
+
+```bash
+node -v
+npm -v
+```
+
+## ▶️ Cómo ejecutar el proyecto
+
+1. **Clona este repositorio (si aún no lo tienes):**
+
+```bash
+git clone https://github.com/alessia-23/portafolio-react.git
+```
+
+2. **Navega al directorio del proyecto:**
+
+```bash
+cd portafolio-react
+```
+
+3. **Instala las dependencias:**
+
+```bash
+npm install
+```
+
+4. **Ejecuta el servidor de desarrollo:**
+
+```bash
+npm run dev
+```
+
+5. **Abre el navegador** y visita la URL que aparece en la terminal, generalmente es:
+
+```
+http://localhost:5173
+```
+
+## 📁 Estructura del proyecto
+
+```
+portafolio-react/
+├── public/                    # Archivos públicos
+├── src/                       # Código fuente
+│   ├── assets/                # Imágenes y recursos
+│   ├── components/            # Componentes funcionales
+│   │   ├── Contacto.jsx
+│   │   ├── CursosRealizados.jsx
+│   │   ├── DatosPersonales.jsx
+│   │   ├── Estudios.jsx
+│   │   ├── HabilidadesBlandas.jsx
+│   │   ├── HabilidadesTecnicas.jsx
+│   │   └── NombreApellido.jsx
+│   ├── App.css                # Estilos generales del componente App
+│   ├── App.jsx                # Componente principal
+│   ├── index.css              # Estilos globales
+│   └── main.jsx               # Punto de entrada de React
+├── index.html                 # HTML raíz
+├── package.json               # Configuración del proyecto y scripts
+├── vite.config.js             # Configuración de Vite
+└── README.md                  # Este archivo
+
+```
+
+## 🧠 Notas adicionales
+
+- Este proyecto está pensado como práctica para aprender React con componentes funcionales.
+- Puedes personalizar los estilos en los archivos `.css` dentro de `src/`.
+
+---
+
+¡Listo! Ahora puedes ejecutar y personalizar tu portafolio 🚀
